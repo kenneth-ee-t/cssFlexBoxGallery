@@ -1,11 +1,13 @@
 *{
     box-sizing: border-box;
 }
-.gallery {
-    width: 50%;
-    border: 5px solid red;
-}
-img{
+.gallery img{
     width: 100%;
-    border: 5px solid blue;
+    max-width: 350px;
+    height: 300px;
+}
+body {
+    margin: 0;
+    background-color: #f5f6f7;
+    font-family: sans-serif;
 }
